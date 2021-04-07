@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.******
+    username: *****
+    password: ***
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    
+cron: 
+  generate-ascii: 0 */1 * * * ?
